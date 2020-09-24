@@ -1,14 +1,30 @@
-body {
-    background-color: blueviolet;
-    height: 100%;
+.container {
+    background-color: $color2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
 
+
+}
+
+.small-tips {
+    font-size: 14px;
+    color: $color3;
 }
 
 .text {
-    background-color: chartreuse;
+    background-color: $color2;
 
 }
 
-.small-tips {}
 
-.go {}
+
+.go {
+    font-size: 20px;
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px $color1;
+    margin-top: 20px;
+}
