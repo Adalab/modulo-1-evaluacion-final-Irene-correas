@@ -1,40 +1,61 @@
 footer {
     background-color: #304268;
-    color: white;
+}
 
+.up {
+    background-color: $color2;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    border-radius: 22.5px;
+    transform: translate(0, -50%);
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+@media all and (min-width: 768px) {
     .menu2 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        text-transform: uppercase;
-        list-style: none;
 
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        // -ms-flex-item-align: order;
     }
+}
 
-    .link1 {
-        align-items: center;
-        margin-top: 50px;
-        list-style: none;
-        padding: 0;
-        font-size: 16px;
-        padding: 30px;
+.link1 {
+    align-items: center;
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    padding: 30px;
 
+    @media all and (min-width: 768px) {
+        margin-top: 0;
     }
+}
 
-    .link2 {
-        align-items: center;
-        margin: 30px;
-        list-style: none;
-        padding: 0;
-        font-size: 16px;
+.link2 {
+    align-items: center;
+    margin: 30px;
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
 
-    }
+}
 
-    .copy {
-        align-items: center;
-        margin: 30px;
-        list-style: none;
-        padding: 0;
-        font-size: 14px;
-    }
+.copy {
+    align-items: center;
+    margin: 30px;
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
 }

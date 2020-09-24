@@ -12,30 +12,31 @@
     left: 0;
     background-color: #0271bc;
     padding: 5px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .title {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
     color: white;
-    position: absolute;
-    margin-top: 300px;
-
     text-align: center;
-    font-size: 22px;
+    font-size: 42px;
     width: 100%;
-    height: 110px;
+    height: 100vh;
 }
 
 .arrow {
     background-color: $color2;
-
-    margin-top: 50px;
-    position: absolute;
     width: 45px;
     height: 45px;
     border-radius: 22.5px;
-
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
 
 }
