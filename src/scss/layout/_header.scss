@@ -1,0 +1,28 @@
+.menu {
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    z-index: 100;
+    ;
+}
+
+.link {
+    background-color: black;
+    border: blanchedalmond;
+}
+
+.photo {
+    background-image: url(../images/cover.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -500;
+}
+
+.title {
+    color: white;
+    justify-content: center;
+}
+
+.photo {}
