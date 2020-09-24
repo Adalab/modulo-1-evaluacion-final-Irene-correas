@@ -2,22 +2,23 @@ footer {
     background-color: #304268;
     color: white;
 
-
     .menu2 {
-        text-decoration: none;
         display: flex;
         flex-direction: column;
         text-align: center;
         text-transform: uppercase;
+        list-style: none;
 
     }
 
     .link1 {
         align-items: center;
-        margin: 30px;
+        margin-top: 50px;
         list-style: none;
         padding: 0;
         font-size: 16px;
+        padding: 30px;
+
     }
 
     .link2 {
@@ -26,6 +27,7 @@ footer {
         list-style: none;
         padding: 0;
         font-size: 16px;
+
     }
 
     .copy {
