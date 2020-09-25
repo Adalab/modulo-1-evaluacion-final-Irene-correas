@@ -4,20 +4,23 @@
     flex-direction: column;
     justify-content: center;
     margin: 30px;
-
-
 }
 
 .small-tips {
     font-size: 14px;
     color: $color3;
+    font-family: $text-font;
+}
+
+.looking {
+    font-family: $title-font;
+    font-size: 24px;
 }
 
 .text {
-    background-color: $color2;
-
+    font-family: $text-font;
+    font-size: 18px;
 }
-
 
 
 .go {
@@ -28,4 +31,11 @@
     border: solid 2px $color1;
     margin-top: 20px;
     background-color: $color2;
+}
+
+@media all and (min-width: 768px) {}
+
+@media all and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
 }

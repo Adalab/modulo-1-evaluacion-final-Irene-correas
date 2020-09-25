@@ -1,8 +1,10 @@
 footer {
     background-color: #304268;
+    font-family: $text-font;
+
 }
 
-.up {
+.arrow {
     background-color: $color2;
     width: 45px;
     height: 45px;
@@ -18,29 +20,15 @@ footer {
     text-align: center;
     text-transform: uppercase;
     list-style: none;
-
-}
-
-@media all and (min-width: 768px) {
-    .menu2 {
-
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        // -ms-flex-item-align: order;
-    }
+    align-items: center;
 }
 
 .link1 {
     align-items: center;
-    margin-top: 50px;
     list-style: none;
     padding: 0;
     font-size: 16px;
     padding: 30px;
-
-    @media all and (min-width: 768px) {
-        margin-top: 0;
-    }
 }
 
 .link2 {
@@ -49,7 +37,6 @@ footer {
     list-style: none;
     padding: 0;
     font-size: 16px;
-
 }
 
 .copy {
@@ -58,4 +45,39 @@ footer {
     list-style: none;
     padding: 0;
     font-size: 14px;
+    color: $color2;
+}
+
+#heart {
+    color: red;
+}
+
+@media all and (min-width: 768px) {
+    .links {
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .link1 {
+        order: 2;
+    }
+
+    .link2 {
+        order: 3;
+    }
+
+    .copy {
+        order: 1;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+    }
 }
