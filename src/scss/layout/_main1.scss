@@ -41,9 +41,23 @@
     box-shadow: 0 8px 15px rgba(238, 65, 22, 0.4);
 }
 
-@media all and (min-width: 768px) {}
+@media all and (min-width: 768px) {
+    .looking {
+
+        font-size: 45px;
+    }
+
+    .text {
+        font-family: $text-font;
+        font-size: 20px;
+    }
+}
 
 @media all and (min-width: 1200px) {
-    display: flex;
-    justify-content: center;
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
