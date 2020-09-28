@@ -31,6 +31,7 @@
     &_anonymus {
         font-family: $title-font;
         font-size: 42px;
+        text-transform: uppercase;
     }
 
     &_claim {
@@ -58,8 +59,7 @@
     }
 
     .header_anonymus {
-        width: 690px;
-        height: 212px;
+
         font-size: 80px;
 
     }
@@ -72,5 +72,7 @@
 @media all and (min-width: 1200px) {
     .header_anonymus {
         font-size: 100px;
+        font-family: $title-font;
     }
+
 }
